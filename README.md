@@ -1,20 +1,21 @@
-# SemuaIlmu: Distributed, LLM Compatible, Web Based, Knowledge Sharing Platform 
+# CheckMy: Collaborative, AI Collaborative Document Checker 
 This project is made for GarudaHacks 5.0
 
-The main goal of this project is: to ease the access, lower the barriers of sharing knowledge, and increasing robustness in the sharing of that knowledge.
+The main goal of this project is: to create a web application to ease the process of validating legal document (or any documents) in order to help minimize any legal when doing any actions.
 
-This goal is mainly motivated to help students in least developed regions where internet connectivity and general flow of goods are restricted (in Indonesian: Daerah 3T).
+This goal is mainly motivated to help any person from any socio-economic level understand legal documents before committing to jobs, a joint-venture of business, or even other simple tasks.
 
 To achieve this we provide solution with the following specification:
-1. It needs to have offline first capability
-2. It needs to be distributed to increase reliability
+1. It needs to be private (not yet implemented)
+2. It needs to be collaborative
 3. It needs to be able to leverage llms
 
 The overall flow of the application are as follows:
-![demo](images/gh5-gundb-ai.jpg)&nbsp;
+![checkMy.xyz current implementation](images/checkmy-current.png)&nbsp;
 
-Our projects uses technologies as the following:
-1. reveal.js library
-2. gun.js for distributed graphdb and user handling
-3. transformers.js to handle local AI loading
-4. Nuxt3 + daisyUI for frontend work
+The current implementation uses technologies as the following:
+1. Firebase Hosting and Storage to store templates
+2. Nuxt 3 as frontend Framework
+3. HuggingFace inference API
+
+![checkMy.xyz ideal implementation](images/checkmy-ideal.png)&nbsp;
