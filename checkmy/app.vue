@@ -37,7 +37,7 @@ const query = async (payload:any, callback:any) => {
             "https://api-inference.huggingface.co/models/naver-clova-ix/donut-base-finetuned-docvqa",
             {
                 headers: {
-                    Authorization: "Bearer <INSERT HF TOKEN HERE>",
+                    Authorization: "Bearer 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",
                     "Content-Type": "application/json",
                 },
                 method: "POST",
